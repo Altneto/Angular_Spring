@@ -41,4 +41,6 @@ npm i @angular/cli
 
 npm i
 
+Na pasta ./front/avaliacao_front/src/environments seguir as instruções no arquivo env.example.ts
+
 ng serve -o
