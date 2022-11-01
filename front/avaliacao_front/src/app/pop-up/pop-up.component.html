@@ -1,0 +1,20 @@
+<div class="popup">
+
+  <div class="buttonDiv">
+    <button class="button2" (click)="closeDialog()">X</button>
+  </div>
+
+  <form (submit)="save(nome.value, cnpj.value, endereco.value)">
+    <h3>Cliente</h3>
+
+    <input #nome class="input" placeholder="Nome" required="required">
+    <input #cnpj class="input" placeholder="CNPJ" required="required">
+
+    <h3>Endereço</h3>
+
+    <input #endereco class="input" placeholder="latitude,longitude" required="required">
+
+    <input class="button" type="submit" value="Salvar">
+  </form>
+</div>
+

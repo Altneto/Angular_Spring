@@ -1,0 +1,15 @@
+body {
+  height: 100%;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  height: 650px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

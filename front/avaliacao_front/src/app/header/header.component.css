@@ -1,0 +1,39 @@
+.header {
+  background-color: #f1f1f1;
+  float: left;
+  width: 100%;
+}
+
+.button {
+	background-color: white;
+  border: 0;
+  border-radius: 10px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.input {
+  background-color: white;
+  border: 0;
+  border-radius: 10px;
+  color: black;
+  padding: 15px 32px;
+  text-align: left;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.left {
+  float: left;
+  display: table;
+  margin: 0.5%;
+}
+
+.right {
+  float: right;
+  display: table;
+  margin: 0.5%;
+}

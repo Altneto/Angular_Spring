@@ -1,0 +1,9 @@
+<div class="header">
+  <div class="left">
+    <button class="button" (click)="openDialog()">Novo Cliente</button>
+  </div>
+  <div class="right">
+    <input #input class="input" type="search"  placeholder="Pesquisar Nome ou CNPJ" [required]="true">
+    <button class="button" (click)="search(input.value)">Pesquisar</button>
+  </div>
+</div>

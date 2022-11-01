@@ -1,0 +1,11 @@
+<div class="map">
+  <agm-map #gm [latitude]="lat" [longitude]="lng">
+    <agm-marker (mouseOver)="onMouseOver (infoWindow, gm)" (mouseOut)="onMouseOut (infoWindow, gm)" [latitude]="lat" [longitude]="lng">
+      <agm-info-window [disableAutoPan]="false" #infoWindow>
+        <div>
+          <p>{{cliente.nome}}</p>
+        </div>
+      </agm-info-window>
+    </agm-marker>
+  </agm-map>
+</div>

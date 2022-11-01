@@ -1,0 +1,11 @@
+.list {
+  margin-left: 5%;
+}
+
+.cliente {
+  cursor: pointer;
+}
+
+mat-paginator{
+  float: right;
+}

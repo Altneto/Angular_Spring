@@ -1,0 +1,15 @@
+<div id="alvo" class="list">
+  <H1>Lista de Clientes</H1>
+  <div *ngFor="let cliente of c">
+    <p class="cliente" (click)="onClick(cliente.codigo)">
+      {{cliente.nome}}
+    </p>
+  </div>
+
+  <div>
+    <mat-paginator [length]="length" [pageSize]="size"  (page)="pageEvent($event)">
+    </mat-paginator>
+  </div>
+</div>
+
+
